@@ -1,0 +1,173 @@
+body {
+  text-align: center;
+  color: #000f08;
+  margin: 0; /*para que se coloca esta si luego se resetean todas?*/
+  font-family: "Open Sans", sans-serif; /* font */
+}
+
+.oscuro {
+  background: #000f08;
+  color: #ffffff;
+}
+.oscuro a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sweet-brown {
+  text-align: left;
+  background: #a4452c;
+  color: #ffffff;
+  padding: 50px;
+  white-space: nowrap; /* para que no halla un esp por el contenerdo div */
+}
+
+.hero-section {
+  text-align: right;
+  background-image: url("../img/bg-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 0.125em 0.15em 0.125em #707070; /* Esta línea la
+pasamos a em  como saco estos tamanos?
+*/
+  padding: 9.125rem 3.125rem; /* se modifico el primer valor de topbottom para q el menu no se sobreponga tanto*/
+}
+
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+section,
+footer {
+  margin-top: 75px;
+}
+
+footer {
+  padding: 50px;
+}
+footer i {
+  /* margenes de icons*/
+  margin: 0 0.25em 0.5em 0.25em;
+}
+
+.charla-speaker,
+.charla-texto,
+.evento {
+  display: inline-block;
+}
+
+.centrado {
+  width: 75%;
+  margin: 0 auto /* le da margen auto a los lados asi centrando el contenido*/;
+}
+
+.charla-speaker {
+  width: 25%;
+  vertical-align: middle;
+}
+.charla-texto {
+  width: 72.5%;
+  vertical-align: middle;
+  margin-left: 2.5%;
+  white-space: normal; /* para que el no-wrap de .sweet-brown no afecte el texto */
+}
+/* icono de cafe */
+.icono {
+  width: 1.75rem;
+}
+.icono svg {
+  fill: #ffffff;
+}
+/* Font arrangements */
+h1 {
+  font-weight: 800;
+  font-size: 3em;
+  margin-bottom: 0.25em;
+}
+h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+.subtitulo,
+h4,
+h5 {
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.75em;
+}
+h5 {
+  font-size: 1.25em;
+}
+
+/* Margenes entre lines de encabezados */
+#ubicacion h2 {
+  /* donde se aplico este? no hay id q se llame ubicacion */
+  margin: 1em auto;
+}
+
+.sweet-brown h3,
+.sweet-brown h5 {
+  margin-bottom: 0.5em;
+}
+#eventos h2 {
+  margin-bottom: 1em;
+}
+#eventos h3 {
+  margin: 1em auto;
+}
+
+/* Arreglo de menu */
+
+nav {
+  text-align: left;
+  padding: 1rem 4rem;
+  position: fixed; /* para q baje auq se haga scroll */
+  width: 100vw; /* para q cubra el 100% de la pantalla w */
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+/* Evento01-SimposioVegan page */
+
+.container {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  /* background-color: #707070; */
+}
+
+.intro {
+  text-align: justify;
+  padding: 7.125rem 0rem 0rem 0rem;
+}
+
+.texto {
+  text-align: left;
+  padding: 1.125rem 0rem 3.125rem 0rem;
+  margin-top: 0%;
+}
+.imgsimposio {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 2.125rem;
+}
+
+.entrelineas h2,
+.entrelineas h3,
+.entrelineas p {
+  margin-bottom: 2.125rem;
+}
